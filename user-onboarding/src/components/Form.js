@@ -107,7 +107,7 @@ export default function Form(props) {
                     onChange={onCheckboxChange}
                     />
                 </label>
-                <button disabled={disabled}>Register</button>
+                <button id="submit" disabled={disabled}>Register</button>
             </div>
         </form>
     )
